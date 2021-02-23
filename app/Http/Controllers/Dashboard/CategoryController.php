@@ -30,7 +30,7 @@ class CategoryController extends Controller
                     return $row->_parent->name ?? '--';
                 })
                 ->addColumn('is_active', function ($row) {
-                    return $row->is_active == 1 ? 'مفعل': 'غير مفعل';
+                    return $row->is_active == 1 ? 'مفعل' : 'غير مفعل';
                 })
                 ->addColumn('action', function ($row) {
                     $url = route('edit.category', $row->id);
@@ -76,7 +76,6 @@ class CategoryController extends Controller
         ]);
 
         $category->save();
-
 
 
         return response()->json([
@@ -160,11 +159,23 @@ class CategoryController extends Controller
             ]);
 
         } else {
-            $category->delete();
-            return response()->json([
-                'status' => true,
-                'msg' => 'تم حذف القسم بنجاح',
-            ]);
+            if ($category->parent_id == null)
+            {
+                return response()->json([
+                    'status' => false,
+                    'msg' => 'هذا قسم رئيسي لا يمكن حذفه',
+                ]);
+            }
+
+            else
+            {
+                $category->delete();
+                return response()->json([
+                    'status' => true,
+                    'msg' => 'تم حذف القسم بنجاح',
+                ]);
+            }
+
         }
     }
 }
