@@ -1,0 +1,17 @@
+#chooseTypeCategory {
+    right: 25px;
+    position: absolute;
+}
+
+#addNewMainCategory {
+    margin-top: 3em;
+}
+
+#addNewSubCategory {
+    margin-top: 3em;
+    margin-right: 2em;
+}
+
+#viewCategory {
+    margin-right: 1em;
+}

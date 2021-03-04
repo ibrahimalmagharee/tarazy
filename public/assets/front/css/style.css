@@ -1,0 +1,637 @@
+
+
+@font-face {
+    font-family: MontserratArabicArabic;
+    src: url('../fonts/ArbFONTS-Montserrat-Arabic-Black.ttf');
+}
+
+@font-face {
+    font-family: MontserratArabicBold;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-Bold.ttf);
+}
+@font-face {
+    font-family: MontserratArabicExtraLight;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-ExtraLight.ttf);
+}
+@font-face {
+    font-family: MontserratArabicLight;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-Light.ttf);
+}
+@font-face {
+    font-family: MontserratArabicMedium;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-Medium.ttf);
+}
+
+@font-face {
+    font-family: MontserratArabicRegular;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-Regular.ttf);
+}
+
+@font-face {
+    font-family: MontserratArabicSemiBold;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: MontserratArabicThin;
+    src: url(../fonts/ArbFONTS-Montserrat-Arabic-Thin.ttf);
+}
+
+.MontserratArabic{
+    font-family:MontserratArabicArabic ;
+    font-weight: bold;
+}
+.MontserratArabicLight{
+    font-family:MontserratArabicLight ;
+    font-weight: lighter; }
+.MontserratArabic-logo{
+    font-family:MontserratArabicArabic ;
+    font-size: 30px;
+}
+
+.title h2{
+    font-family:MontserratArabicArabic ;
+}
+.title p, .title button, .after-header-text, .first-btn, .card-text, .btn-yellow, .footer-col li a{
+    font-family:MontserratArabicLight ;
+    font-weight: lighter;
+}
+
+.section-title{
+    font-family:MontserratArabicSemiBold ;
+}
+
+.card-title{
+    font-family:MontserratArabicSemiBold ;
+}
+
+
+.first-title{
+    font-family:MontserratArabicSemiBold ;
+}
+.first-details{
+    font-family:MontserratArabicLight ;
+
+}
+
+
+body{
+    direction: rtl;
+}
+.header{
+    background: url('../assets/backgroundhome.jpeg') no-repeat center center fixed;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #FFC812;
+}
+.nav-icon{
+    background: black;
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+    width: 28px;
+    height: 28px;
+}
+.title {
+    margin-top: 20%;
+    color: white;
+}
+.btn-yellow{
+    font-size: 1rem;
+    padding: .5rem 5rem;
+    color: white;
+    background-image: linear-gradient(#FFC812, #E0AE0B);
+    border: 1px solid#FFC812;
+}
+.btn-yellow:hover{
+    font-size: 1rem;
+    padding: .5rem 5rem;
+    color: #FFC812;
+    background: transparent;
+    border: 1px solid #FFC812;
+}
+
+.btn-yellow-about{
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    color: white;
+    background-image: linear-gradient(#FFC812, #E0AE0B);
+    border: 1px solid#FFC812;
+}
+.btn-yellow-about:hover{
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    color: #FFC812;
+    background: transparent;
+    border: 1px solid #FFC812;
+}
+
+.mx{
+    margin: 0 8rem;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: #FFC812;
+}
+.after-header{
+    background-color: #42413D;
+    padding: 20px 50px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 7.5%;
+    position: relative;
+    top: -70px;
+}
+
+.first.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 10px;
+    position: absolute;
+    top: 350px;
+    right: 63%;
+}
+.first.owl-theme .owl-dots .owl-dot span{
+    background: white;
+}
+.first.owl-theme .owl-dots .owl-dot span:hover {
+    background: #FFC812;
+}
+.first.owl-theme .owl-dots .owl-dot.active span{
+    background: #FFC812;
+    width: 25px;
+}
+
+.owl-stage-outer{
+    padding: 10px;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background: #FFC812;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(223, 222, 222);
+    position: absolute;
+    top: 40%;
+    right: 120px;
+}
+.owl-carousel .owl-nav button.owl-next{
+    background: #6A6966;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(223, 222, 222);
+    position: absolute;
+    top: 40%;
+    left: 120px;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: #FFC812;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.border-3{
+    position: relative;
+}
+.border-3:after {
+    content: '';
+    height: 120%;
+    width: 2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #FFC812;
+}
+
+
+.second.owl-theme .owl-nav.disabled + .owl-dots {
+    display: inline-block;
+    margin-top: 10px;
+    position: absolute;
+    top: -80px;
+    left: 85%;
+}
+.second.owl-theme .owl-dots .owl-dot span{
+    background: #FFC812;
+}
+.second.owl-theme .owl-dots .owl-dot span:hover {
+    background: #FFC812;
+}
+.second.owl-theme .owl-dots .owl-dot.active span{
+    background: #FFC812;
+}
+
+.owl-stage-outer{
+    padding: 10px;
+}
+
+.border-width-top{
+    position: relative;
+}
+.border-width-top::after{
+    content: "";
+    width: 5%;
+    height: 3px;
+    background: #FFC812;
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+
+.border-width{
+    position: relative;
+}
+.border-width::after{
+    content: "";
+    width: 30%;
+    height: 1px;
+    background: #FFC812;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+}
+
+.cover{
+    width: 100%;
+    height: 80vmin;
+    background: url('../assets/olesia-buyar-HCRYIjtGybs-unsplash.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover .content{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+.cover .content>h5{
+    color: whitesmoke;
+}
+.btn-yellow-outline, .btn-yellow-outline:hover{
+    font-size: 1rem;
+    padding: .5rem 5rem;
+    color: #FFC812;
+    background: white;
+    border: 1px solid #FFC812;
+}
+
+.link-title{
+    color:#FFC812 ;
+    text-decoration: none;
+}
+.link-title:hover {
+    color:#d6a400 ;
+    text-decoration: none;
+}
+
+.shadow-cust{
+    box-shadow: 1px 1px 5px 3px rgb(228, 228, 228);
+}
+
+
+.img-round{
+    width: 100px !important;
+    border:none;
+    position: relative;
+    top: -50px;
+}
+
+.card-body{
+    padding-top: 0;
+}
+.card-body .btn-yellow{
+    padding: .5rem 1rem;
+}
+
+.img-round-second{
+    width: 100px !important;
+    border:none;
+}
+
+
+footer{
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 3vmin 18vmin 1vmin 18vmin;
+}
+.footer-col{
+    list-style:none !important;
+    text-align: right;
+}
+
+
+.section-1{
+    padding: 0 0vmin 20vmin 0;
+}
+.section-1 .row .col-md-6 .pray img{
+    width: 80%;
+
+}
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+}
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 12vmin;
+    right: 5vmin;
+    background: #FFC812 ;
+    border-top-right-radius: 50px;
+    /* padding: 13vmin 5vmin 8vmin 130min; */
+    height: 595px;
+    width: 182.4%;
+}
+
+.section-1 .row .col-md-6 .pray{
+    z-index: 1;
+    position: relative;
+    top: 4vmin;
+}
+
+.panel h3{
+    padding: 2rem 1rem !important;
+}
+
+.newdots{
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+}
+
+
+/* about */
+.mx-about{
+    margin: 0 15.5rem;
+}
+
+.about-header{
+    background: url('../assets/Group\ 345@2x.png') no-repeat center center fixed;
+    height: 680px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-header-img{
+    background: url('../assets/AboutGroup\ 344.png') no-repeat center center fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* register */
+
+.register-img{
+    background: url('../assets/RegisterMGroup\ 345.png') no-repeat center center fixed;
+    min-height: 625px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+
+}
+.login-img{
+    background: url('../assets/RegisterMGroup\ 345.png') no-repeat center center fixed;
+    height: 625px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.position{
+    position: relative;
+    top: 60%;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+
+.active2{
+    font-size: 75%;
+    transform: translate3d(0, -100%, 0);
+    color: #e7b100 !important;
+}
+.active-input{
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffd857;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #ffe48b;
+}
+
+.form-control-placeholder {
+    position: absolute;
+    top: 0;
+    padding: 5px 10px 0 0px;
+    transition: all 200ms;
+    opacity: 0.5;
+    color: #495057;
+    transition: top 0.5s ease-in-out;
+}
+
+.focus.form-control:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffd857;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #ffe48b;
+}
+
+/* .form-control:focus + .form-control-placeholder{
+  font-size: 75%;
+  transform: translate3d(0, -100%, 0);
+  opacity: 1;
+  color: #FFC812;
+} */
+
+.after-input{
+    position: absolute;
+    top: 7px;
+    left: 25px;
+}
+.log-after-input{
+    position: absolute;
+    top: 7px;
+    left: 25px;
+}
+
+.was-validated .form-control:invalid{
+    background-image:none;
+}
+
+
+
+
+
+/* loginten */
+
+.icon-custom{
+    background: #FFC812;
+    padding: 15px;
+    font-size: 20px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 5px;
+    color: white;
+}
+
+.profile-img{
+    position: relative;
+    top: -80px;
+    width: 165px;
+    left: 84%;
+}
+
+.profile-name{
+    position: relative;
+    bottom: 120px;
+}
+/*
+mobile */
+
+@media only screen and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+    .mx, .mx-about{
+        margin:0;
+    }
+
+    .title {
+        margin-top: 0%;
+    }
+
+    .first-title, .first-details{
+        text-align: center;
+    }
+    .first-btn{
+        margin-right: 15%;
+        margin-bottom: 10px;
+    }
+
+    .cover .content {
+        padding-top: 0vmin;
+    }
+
+    .most-sold{
+        text-align: center;
+    }
+
+    .opinions{
+        width: 300px !important;
+    }
+
+    .jacket{
+        width: 15.5rem !important;
+    }
+
+    .owl-theme .owl-dots .owl-dot{
+        display: none;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+        display: none;
+    }
+
+    .footer-col{
+        text-align: center;
+    }
+    .copy-right{
+        margin: auto;
+    }
+    .column{
+        text-align: center;
+    }
+
+    /* about */
+
+    .section-1 {
+        padding: 10vmin;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+        position: relative;
+        top: 0;
+        right: 0;
+        background: #FFC812 ;
+        border-top-right-radius: 50px;
+        height: 595px;
+        width: 100%;
+    }
+
+    .section-1 .row .col-md-6 .pray{
+        display: none;
+    }
+
+    .about-last{
+        text-align: center !important;
+    }
+
+    .position {
+        top: 20%;
+        text-align: center !important;
+    }
+    .log{
+        text-align: center;
+        padding: 12px;
+    }
+    .button-margin{
+        margin-left: 2rem!important;
+    }
+    .about-header-sec{
+        display: none;
+    }
+    .about-header-img{
+        margin: 2rem 0  !important;
+        padding: 0 !important;
+        text-align: center !important;
+    }
+    .about-starter{
+        margin-top: 0 !important;
+        padding: 1rem!important;
+    }
+    .btn-yellow {
+        padding: .5rem 3rem;
+    }
+
+    .log{
+        margin: 6px !important;
+        padding: .5rem 1.1rem !important;
+    }
+
+    .reg-form-custom{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .card-resp{
+        width: 17rem !important;
+    }
+    .mt-resp{
+        margin-top: 1rem !important;
+    }
+
+
+
+
+}
